@@ -5,9 +5,12 @@ import developer from "../images/developer.svg";
 import menu from "../images/iconmonstr-menu-1.svg";
 
 const Hero = () => {
-  window.addEventListener("load", () => {
+  // window.addEventListener("load", () => {
+  //   document.querySelector("#hero").classList.add("loaded");
+  // });
+  const preLoaderToggle = () => {
     document.querySelector("#hero").classList.add("loaded");
-  });
+  };
   //
   const menuRef = useRef(null);
   const menuToggle = () => menuRef.current.classList.toggle("open-menu");
@@ -18,7 +21,7 @@ const Hero = () => {
   };
   //
   return (
-    <section id="hero">
+    <section onLoad={() => preLoaderToggle()} id="hero">
       <nav>
         <a href="/" className="logo">
           <img src={logo} alt="logo" />

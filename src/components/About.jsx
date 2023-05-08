@@ -11,7 +11,7 @@ const About = () => (
         applications. Specialized in React, have professional experience working
         with React Native. I also have experience working with Node.js,
         TypeScript, Next.js, C, and Testing. Strong creative and analytical
-        skills, Team player with an eye for detail.
+        skills, Team player with an eye for detail..
       </p>
     </div>
   </section>
