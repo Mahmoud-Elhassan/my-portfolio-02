@@ -15,7 +15,7 @@ const Work = () => (
     >
       <img
         className="card-img"
-        src="https://i.postimg.cc/fRqyskDJ/pexels-tim-samuel-5838215-6.jpg"
+        src="https://i.postimg.cc/kggvJjRw/pexels-tim-samuel-5838215-6-1.jpg"
         alt=""
       />
       <footer>
