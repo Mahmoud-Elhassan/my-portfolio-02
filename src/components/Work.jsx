@@ -20,7 +20,7 @@ const Work = () => (
       />
       <footer>
         <div className="brief">
-          <p>SociaWeb</p>
+          <p>SociaWeb:</p>
           <div className="skills-used">
             <img src={next} alt="" className="skill one"></img>
             <img src={fb} alt="" className="skill two"></img>
@@ -28,10 +28,8 @@ const Work = () => (
           </div>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda,
-          quod quos nisi, fugiat voluptate voluptatibus ea, sunt eaque illum
-          consectetur molestiae ipsam cumque optio architecto? Obcaecati vel
-          quidem optio fugiat.
+          Social media web application. With the ability to create an account,
+          post, like, comment, delete and more.
         </p>
       </footer>
     </a>
@@ -48,7 +46,7 @@ const Work = () => (
       />
       <footer>
         <div className="brief">
-          <p>Movie Website</p>
+          <p>Movie Website:</p>
           <div className="skills-used">
             <img src={react} alt="" className="skill one"></img>
             <img src={sass} alt="" className="skill two"></img>
@@ -56,10 +54,8 @@ const Work = () => (
           </div>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda,
-          quod quos nisi, fugiat voluptate voluptatibus ea, sunt eaque illum
-          consectetur molestiae ipsam cumque optio architecto? Obcaecati vel
-          quidem optio fugiat.
+          A movie website where users can search for movies, browse trends,
+          upcoming movies and read details.
         </p>
       </footer>
     </a>
@@ -77,7 +73,7 @@ const Work = () => (
       />
       <footer>
         <div className="brief">
-          <p>Cryptocurrency</p>
+          <p>Cryptocurrency tracker:</p>
           <div className="skills-used">
             <img src={react} alt="" className="skill one"></img>
             <img src={sass} alt="" className="skill two"></img>
@@ -85,10 +81,8 @@ const Work = () => (
           </div>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda,
-          quod quos nisi, fugiat voluptate voluptatibus ea, sunt eaque illum
-          consectetur molestiae ipsam cumque optio architecto? Obcaecati vel
-          quidem optio fugiat.
+          A cryptocurrency website allows you to search and track the prices of
+          various cryptocurrencies in real-time.
         </p>
       </footer>
     </a>
