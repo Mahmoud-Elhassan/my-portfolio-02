@@ -2,12 +2,12 @@ import js from "../images/javascript-original.svg";
 import ts from "../images/typescript-original.svg";
 import sass from "../images/sass-original.svg";
 import react from "../images/react-original.svg";
-import rwd from "../images/responsive-design.svg";
 import reactN from "../images/react-native-1.svg";
 import next from "../images/nextjs-original-wordmark.svg";
 import node from "../images/nodejs-original.svg";
 import git from "../images/git-original.svg";
 import fb from "../images/firebase-icon.svg";
+import tw from "../images/tailwind-css-icon.svg";
 
 const Skills = () => (
   <section id="skills-container">
@@ -55,9 +55,9 @@ const Skills = () => (
       />
       <img
         className="three reveal-list"
-        src={rwd}
-        alt="Responsive web design"
-        title="Responsive web design"
+        src={tw}
+        alt="Tailwind CSS"
+        title="Tailwind CSS"
       />
       <img
         className="four reveal-list"

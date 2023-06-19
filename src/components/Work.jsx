@@ -3,6 +3,7 @@ import react from "../images/react-original.svg";
 import rwd from "../images/responsive-design.svg";
 import next from "../images/nextjs-original-wordmark.svg";
 import fb from "../images/firebase-icon.svg";
+import tw from "../images/tailwind-css-icon.svg";
 
 const Work = () => (
   <section id="work">
@@ -34,28 +35,29 @@ const Work = () => (
       </footer>
     </a>
     <a
-      href="https://movweb.netlify.app/"
+      href="https://google-clone-smoky-beta.vercel.app/"
       className="card reveal-list"
       rel="noreferrer"
       target="_blank"
     >
       <img
         className="card-img"
-        src="https://i.postimg.cc/kGWwrkSg/movie.jpg"
+        src="https://i.postimg.cc/mkRpd33f/pexels-sarah-blocksidge-13628541-min.jpg"
         alt=""
       />
       <footer>
         <div className="brief">
-          <p>Movie Website:</p>
+          <p>Google Clone:</p>
           <div className="skills-used">
-            <img src={react} alt="" className="skill one"></img>
-            <img src={sass} alt="" className="skill two"></img>
+            <img src={next} alt="" className="skill one"></img>
+            <img src={tw} alt="" className="skill two"></img>
             <img src={rwd} alt="" className="skill three"></img>
           </div>
         </div>
         <p>
-          A movie website where users can search for movies, browse trends,
-          upcoming movies and read details.
+          Google Clone is a web application that allows you to search for
+          content, including images, by using a search bar. It is built using
+          Next.js 13.
         </p>
       </footer>
     </a>
