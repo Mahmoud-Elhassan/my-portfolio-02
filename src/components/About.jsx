@@ -7,11 +7,10 @@ const About = () => (
         alt="me"
       />
       <p>
-        I am a web developer with industry experience building websites and web
-        applications. Specialized in React, have professional experience working
-        with React Native. I also have experience working with Node.js,
-        TypeScript, Next.js, C, and Testing. Strong creative and analytical
-        skills, Team player with an eye for detail.
+        I'm Mahmoud, a full stack developer with an expertise in React, Next.js,
+        PostgreSQL, and Node.js. I'm passionate about creating innovative and
+        user-friendly web applications. I'm always up for a challenge and I
+        strive to stay up to date with the latest web development technologies.
       </p>
     </div>
   </section>
