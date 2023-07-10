@@ -1,6 +1,6 @@
 import js from "../images/javascript-original.svg";
 import ts from "../images/typescript-original.svg";
-import sass from "../images/sass-original.svg";
+import post from "../images/Postgresql_elephant.svg";
 import react from "../images/react-original.svg";
 import reactN from "../images/react-native-1.svg";
 import next from "../images/nextjs-original-wordmark.svg";
@@ -15,17 +15,22 @@ const Skills = () => (
     <div className="skills">
       <img
         className="one reveal-list"
-        src={js}
-        alt="JavaScipt"
-        title="JavaScript"
+        src={next}
+        alt="Next.js"
+        title="Next.js"
       />
       <img
         className="two reveal-list"
-        src={ts}
-        alt="TypeScript"
-        title="TypeScript"
+        src={node}
+        alt="Node.js"
+        title="Node.js"
       />
-      <img className="three reveal-list" src={sass} alt="Sass" title="Sass" />
+      <img
+        className="three reveal-list"
+        src={post}
+        alt="PostgreSQL"
+        title="PostgreSQL"
+      />
       <img
         className="four reveal-list"
         src={react}
@@ -43,15 +48,15 @@ const Skills = () => (
     <div className="skills">
       <img
         className="one reveal-list"
-        src={next}
-        alt="Next.js"
-        title="Next.js"
+        src={js}
+        alt="JavaScipt"
+        title="JavaScript"
       />
       <img
         className="two reveal-list"
-        src={node}
-        alt="Node.js"
-        title="Node.js"
+        src={ts}
+        alt="TypeScript"
+        title="TypeScript"
       />
       <img
         className="three reveal-list"
@@ -69,7 +74,7 @@ const Skills = () => (
     </div>
     {/* <Parallax speed={-20}>
             <img className='' src={Cloud1} alt='' />
-        </Parallax> */}
+          </Parallax> */}
   </section>
 );
 
